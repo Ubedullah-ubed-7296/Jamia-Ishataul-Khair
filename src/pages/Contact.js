@@ -193,7 +193,7 @@ const Contact = () => {
                       {t(translations.contact.phone_label)}
                     </h3>
                     <p className={`text-foreground/80 ${isUrdu ? 'urdu-font' : ''}`}>
-                      090305 35784
+                      09030535784
                     </p>
                   </div>
                 </div>
