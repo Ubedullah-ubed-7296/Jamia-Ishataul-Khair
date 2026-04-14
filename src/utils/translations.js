@@ -33,11 +33,11 @@ export const translations = {
     timings: { en: 'Open 24 Hours', ur: '24 گھنٹے کھلا' }
   },
   about: {
-    title: { en: 'About Jamia Ishatul Khair', ur: 'جامعہ اشاطۃ الخیر کے بارے میں' },
+    title: { en: 'About Jamia Ishatul Khair', ur: 'جامعہ اشاعتُ الخیر کے بارے میں' },
     history_title: { en: 'Our History', ur: 'ہماری تاریخ' },
     history_text: {
       en: 'Jamia Ishatul Khair has been serving the community for years, providing quality Islamic education and nurturing future scholars. Our institution stands as a beacon of knowledge in Hyderabad, Telangana.',
-      ur: 'جامعہ اشاطۃ الخیر برسوں سے کمیونٹی کی خدمت کر رہی ہے، معیاری اسلامی تعلیم فراہم کرتی ہے اور مستقبل کے علماء کی پرورش کرتی ہے۔ ہمارا ادارہ حیدرآباد، تلنگانہ میں علم کی روشنی کے طور پر کھڑا ہے۔'
+      ur: 'جامعہ اشاعتُ الخیر برسوں سے کمیونٹی کی خدمت کر رہی ہے، معیاری اسلامی تعلیم فراہم کرتی ہے اور مستقبل کے علماء کی پرورش کرتی ہے۔ ہمارا ادارہ حیدرآباد، تلنگانہ میں علم کی روشنی کے طور پر کھڑا ہے۔'
     },
     vision_title: { en: 'Our Vision', ur: 'ہماری نظر' },
     vision_text: {
