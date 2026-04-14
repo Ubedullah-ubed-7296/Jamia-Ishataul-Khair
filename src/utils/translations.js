@@ -52,7 +52,7 @@ export const translations = {
     principal_title: { en: 'Message from the Principal', ur: 'پرنسپل کا پیغام' },
     principal_text: {
       en: 'At Jamia Ishatul Khair, we are committed to nurturing students who excel in both Islamic knowledge and moral character. Our experienced faculty ensures that each student receives personalized attention and guidance on their educational journey.',
-      ur: 'جامعہ اشاطۃ الخیر میں، ہم ایسے طلبا کی پرورش کے لیے پرعزم ہیں جو اسلامی علم اور اخلاقی کردار دونوں میں بہترین ہوں۔ ہمارا تجربہ کار اساتذہ یقینی بناتے ہیں کہ ہر طالب علم کو اپنے تعلیمی سفر میں ذاتی توجہ اور رہنمائی ملے۔'
+      ur: 'جامعہ اشاعتُ الخیر میں، ہم ایسے طلبا کی پرورش کے لیے پرعزم ہیں جو اسلامی علم اور اخلاقی کردار دونوں میں بہترین ہوں۔ ہمارا تجربہ کار اساتذہ یقینی بناتے ہیں کہ ہر طالب علم کو اپنے تعلیمی سفر میں ذاتی توجہ اور رہنمائی ملے۔'
     }
   },
   courses: {
