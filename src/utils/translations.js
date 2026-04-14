@@ -7,7 +7,7 @@ export const translations = {
     contact: { en: 'Contact', ur: 'رابطہ' }
   },
   home: {
-    hero_title: { en: 'Jamia Ishatul Khair', ur: 'جامعہ اشاطۃ الخیر' },
+    hero_title: { en: 'Jamia Ishatul Khair', ur: 'جامعہ اشاعتُ الخیر' },
     hero_subtitle: {
       en: 'A Center of Islamic Knowledge and Spiritual Excellence',
       ur: 'اسلامی علم اور روحانی بہتری کا مرکز'
