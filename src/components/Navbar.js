@@ -28,7 +28,7 @@ export const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
             <div className={`text-2xl font-bold ${language === 'ur' ? 'urdu-font' : 'heading-font'} text-primary`}>
-              {language === 'en' ? 'Jamia Ishatul Khair' : 'جامعہ اشاطۃ الخیر'}
+              {language === 'en' ? 'Jamia Ishatul Khair' : 'جامعہ اشاعتُ الخیر'}
             </div>
           </Link>
 
