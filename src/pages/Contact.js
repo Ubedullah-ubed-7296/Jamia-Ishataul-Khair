@@ -35,26 +35,26 @@ const Contact = () => {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    setLoading(true);
+  e.preventDefault();
 
-    try {
-      await axios.post(`${API}/contact`, formData);
-      toast.success(t(translations.contact.success));
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        subject: '',
-        message: ''
-      });
-    } catch (error) {
-      console.error('Error submitting form:', error);
-      toast.error(t(translations.contact.error));
-    } finally {
-      setLoading(false);
-    }
-  };
+  const message = `
+New Contact Form Submission
+
+Name: ${formData.name}
+Email: ${formData.email}
+Phone: ${formData.phone}
+Subject: ${formData.subject}
+
+Message:
+${formData.message}
+  `;
+
+  const whatsappNumber = "917396650596";
+
+  const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, "_blank");
+};
 
   return (
     <div className="min-h-screen py-16 md:py-24">
