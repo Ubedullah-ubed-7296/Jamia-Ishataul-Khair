@@ -131,6 +131,7 @@ const Contact = () => {
                     data-testid="contact-phone-input"
                     value={formData.phone}
                     onChange={handleChange}
+                    required
                     className={isUrdu ? 'urdu-font' : ''}
                   />
                 </div>
