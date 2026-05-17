@@ -37,16 +37,28 @@ const Contact = () => {
   const handleSubmit = async (e) => {
   e.preventDefault();
 
-  const message = `
-New Contact Form Submission
+  const message = isUrdu
+    ? `
+  نیا رابطہ فارم
 
-Name: ${formData.name}
-Email: ${formData.email}
-Phone: ${formData.phone}
-Subject: ${formData.subject}
+  نام: ${formData.name}
+  ای میل: ${formData.email}
+  فون نمبر: ${formData.phone}
+  موضوع: ${formData.subject}
 
-Message:
-${formData.message}
+  پیغام:
+  ${formData.message}
+  `
+    : `
+  New Contact Form Submission
+
+  Name: ${formData.name}
+  Email: ${formData.email}
+  Phone: ${formData.phone}
+  Subject: ${formData.subject}
+
+  Message:
+  ${formData.message}
   `;
 
   const whatsappNumber = "917396650596";
